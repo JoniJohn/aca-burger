@@ -15,19 +15,19 @@ function App() {
   return (
     <div className="container">
       <Space></Space>
-      <div className="card">
+      <div className="card border border-3 border-info">
         <div className='card-body'>
-          <h1>ACA Burger 🍔</h1>
+          <h1 className='text-secondary'>ACA Burger 🍔</h1>
         </div>
       </div>
       <Space></Space>
-      <div className='card'>
+      <div className='card border border-3 border-info'>
         <div className='card-body'>
-          <h4>Choose Topings</h4>
+          <h4 className='text-secondary'>Choose Topings</h4>
         </div>
       </div>
       <Space></Space>
-      <div className='card'>
+      <div className='card border border-3 border-info'>
         <div className='card-body'>
           <TopBread></TopBread>
           <Lattice></Lattice>

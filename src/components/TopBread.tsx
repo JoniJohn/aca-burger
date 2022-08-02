@@ -2,9 +2,9 @@ import React, { Component } from "react";
 
 class TopBread extends Component {
     render(){
-        return <div>
-            Top Bread
-        </div>
+        return (
+            <div className="burger-component brown rounded-top"></div>
+        );
     }
 }
 

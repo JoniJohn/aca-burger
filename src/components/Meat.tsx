@@ -2,7 +2,9 @@ import React, { Component } from "react";
 
 class Meat extends Component {
     render() {
-        return <div>Meat</div>
+        return (
+            <div className="burger-component meat-red"></div>
+        );
     }
 }
 

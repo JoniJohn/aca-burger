@@ -82,7 +82,7 @@ class Home extends Component<{}, {latticeCount: number, meatCount: number, tomat
                             }
                             <div className="alert alert-info">
                                 <h4 className="alert-heading">Take Note!</h4>
-                                <p>Please note that you can only add up to 3 of each of the available toppings!</p>
+                                <p>You can only add up to 3 of each of the available toppings!</p>
                             </div>
                             <div className="row mb-1">
                                 <p className="col">lattice</p>

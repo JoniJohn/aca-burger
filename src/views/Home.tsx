@@ -50,8 +50,6 @@ class Home extends Component<{}, {latticeCount: number, meatCount: number, tomat
         this.setState((state, props) => ({ meatCount: (state.meatCount - 1) }));
     }
 
-    
-    
     render(){
         
         return(
